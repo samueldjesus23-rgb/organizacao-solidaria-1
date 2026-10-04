@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça os projetos de voluntariado e campanhas de doação.">
+    <meta name="theme-color" content="#1d4ed8">
+    <title>Nossos Projetos - Organização Solidária</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="main.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo principal</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="Organização Solidária - página inicial">
+      <img src="assets/images/logo.webp" alt="Logo da Organização Solidária" width="58" height="58">
+      <h1>Organização Solidária</h1>
+    </a>
+    <button class="nav-toggle" type="button" data-nav-toggle aria-controls="main-menu" aria-expanded="false">☰ <span>Menu</span></button>
+    <nav aria-label="Navegação Principal">
+      <ul class="nav-list" id="main-menu">
+        <li><a href="index.html" >Início</a></li>
+        <li><a href="projetos.html" aria-current="page">Projetos</a></li>
+        <li><a href="cadastro.html" >Cadastro</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions" aria-label="Preferências visuais">
+      <button type="button" data-theme-toggle aria-pressed="false" title="Alternar modo escuro">🌙</button>
+      <button type="button" data-contrast-toggle aria-pressed="false" title="Alternar alto contraste">◐</button>
+    </div>
+  </div>
+</header>
+<main id="conteudo">
+  <div class="container">
+    <section class="hero" aria-labelledby="titulo-projetos">
+      <h2 id="titulo-projetos">Nossos Projetos Solidários</h2>
+      <p>Trabalhamos em múltiplas frentes para que o auxílio chegue de forma estruturada a quem mais precisa.</p>
+    </section>
+    <section class="section" aria-labelledby="lista-titulo">
+      <h2 id="lista-titulo">Projetos e campanhas</h2>
+      <div id="lista-projetos" class="project-list" aria-live="polite"></div>
+    </section>
+  </div>
+</main>
+<dialog id="info-modal" aria-labelledby="modal-titulo">
+  <div class="modal-content">
+    <h2 id="modal-titulo">Informações do projeto</h2>
+    <p id="modal-texto"></p>
+    <div class="modal-actions">
+      <form method="dialog"><button class="primary">Fechar</button></form>
+    </div>
+  </div>
+</dialog>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <section aria-labelledby="contato-titulo">
+      <h2 id="contato-titulo">Fale Conosco</h2>
+      <address>
+        <p>E-mail: <a href="mailto:contato@ongsolidaria.org.br">contato@ongsolidaria.org.br</a></p>
+        <p>Telefone: <a href="tel:+5511999999999">(11) 99999-9999</a></p>
+        <p>Endereço: Rua da Solidariedade, 123 - Centro, São Paulo - SP, CEP: 01000-000</p>
+      </address>
+    </section>
+    <section aria-labelledby="rodape-titulo">
+      <h2 id="rodape-titulo">Sobre o projeto</h2>
+      <p>Interface desenvolvida como projeto acadêmico de front-end.</p>
+      <p>&copy; 2026 Organização Solidária. Todos os direitos reservados.</p>
+    </section>
+  </div>
+</footer>
+</body>
+</html>
