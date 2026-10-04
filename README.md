@@ -101,6 +101,7 @@ Exemplos de Conventional Commits:
 ```text
 feat: implementar validação do formulário
 feat: adicionar localStorage
+feat: adicionar projeto inicial da organizacao solidaria
 fix: corrigir navegação responsiva
 docs: atualizar README
 ```
